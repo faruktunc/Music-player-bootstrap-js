@@ -1,0 +1,46 @@
+body{
+margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    backdrop-filter: blur(10px);
+/*       -webkit-filter: blur(8px); */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.hero-image {
+   border: 1px;
+      border-radius: 5px;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.4);
+      padding: 20px;
+  
+  }
+.card{
+    width: 400px;
+   
+}
+
+#progress .times, .card-footer, .volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volume-container i{
+    margin-right: 5px;
+}
+
+li.playing{
+    background-color: #0b5e70;
+    color: white;
+}
+
